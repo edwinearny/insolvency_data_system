@@ -91,10 +91,10 @@ def build_index(folder_path):
             documents=[chunk["text"] for chunk in batch_chunks],
             embeddings=batch_embeddings,
             metadatas=[{"source": chunk["source"]} for chunk in batch_chunks])
-        print(f" This batch stored.")
+        print(" This batch stored.")
 
     total = collection.count()
-    print(f"\nIndex built! Total chunks in database: {total}")
+    print("Index built! Total chunks in database: ", total)
     return total
 
 

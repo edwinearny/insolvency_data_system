@@ -4,10 +4,8 @@ queries = [
     "whta is insolvncy?",
     "How does liquidation work in the UK?",
     "compny cant pay debts",
-    "what is a moratorium?",
-]
+    "what is a moratorium?"]
 
 for q in queries:
-    print(f"Original:  {q}")
-    print(f"Enhanced:  {enhance_query(q)}")
-    print()
+    print(f"Original:{q}")
+    print(f"Enhanced:{enhance_query(q)}")

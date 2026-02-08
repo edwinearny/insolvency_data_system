@@ -21,7 +21,7 @@ def rerank(query, results, top_k=TOP_K_RERANK): #cross encoder
     if not results:
         return []
 
-    # Create query-doc pairs, raw scores from cross-encoder, normalize
+    #Created query-doc pairs, raw scores from cross-encoder, normalize
     pairs = [[query, result["text"]] for result in results]
     raw_scores = reranker.predict(pairs)
     norm_scores = normalize_scores(raw_scores)

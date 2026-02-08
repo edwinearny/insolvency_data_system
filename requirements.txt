@@ -1,0 +1,7 @@
+chromadb
+sentence-transformers
+streamlit
+PyPDF2
+langchain-text-splitters
+nltk
+pyspellchecker

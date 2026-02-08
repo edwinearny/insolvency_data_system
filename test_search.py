@@ -8,7 +8,7 @@ query = "What is insolvency?"
 results = search(query)
 
 print(f"\nQuery: {query}")
-print("--- Results ---")
+print("@@@@@@@ Results ::::::")
 for i, result in enumerate(results[:5]):
     print(f"\nResult {i+1} [Score: {result['score']}]")
     print(f"Source: {result['source']}")
