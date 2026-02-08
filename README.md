@@ -11,6 +11,9 @@ The system processes UK insolvency law files, converts them into vector embeddin
 - **Ranking Engine** — Uses cross-encoder to re-rank search results for more accurate results.
 - **User Interface** — A Streamlit web app for real-time and result display.
 
+Sample outputs:
+![Screenshot](sample_output.png)
+
 ## Tech Stack
 
 - Python
