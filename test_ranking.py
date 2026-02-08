@@ -2,7 +2,6 @@ from src.data import search
 from src.query import enhance_query
 from src.ranking import rerank
 
-# Original
 query = "What happens when a company cannot pay its debts?"
 
 # Enhance query, Search DB with initial ranking, re-rank

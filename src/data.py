@@ -60,8 +60,8 @@ def chunk_documents(documents):
         for i, chunk_text in enumerate(split_texts):
             chunks.append({
                 "text": chunk_text,
-                "source": doc["source"]})
-                # "chunk_id": f"{doc['source']}_chunk_{i}"})
+                "source": doc["source"],
+                "chunk_id": f"{doc['source']}_chunk_{i}"})
     print(f"Total chunks created: {len(chunks)}")
     return chunks
 
