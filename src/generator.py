@@ -19,7 +19,7 @@ def generate_answer(query, ranked_results):
     # Combine top chunks into context
     context = "\n\n".join([result["text"] for result in ranked_results])
 
-    print('CONTEXT : ', context)
+    # print('CONTEXT : ', context)
     # exit(0)
 
     # Create prompt
