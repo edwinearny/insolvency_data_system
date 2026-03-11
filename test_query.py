@@ -4,7 +4,10 @@ queries = [
     "whta is insolvncy?",
     "How does liquidation work in the UK?",
     "compny cant pay debts",
-    "what is a moratorium?"]
+    "what is a moratorium?",
+    'financial ruin',
+    'Liquidation',
+    'Asset Management']
 
 for q in queries:
     print(f"Original:{q}")
